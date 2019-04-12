@@ -10,11 +10,12 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
 1.1 register(Class<?>... annotatedClasses)
 1.2 scan(String... basePackages)
 
-### architecture
+### Architecture
+```
 AbstractApplicationContext
 	-> GenericApplicationContext 
 		-> AnnotationConfigApplicationContext
-
+```
 ### construct method
 
 ```
